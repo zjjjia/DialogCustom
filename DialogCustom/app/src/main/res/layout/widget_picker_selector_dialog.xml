@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="262dp"
+    android:layout_height="235dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <com.example.dialogcustom.WheelView
+        android:id="@+id/wheel_view"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+    <View
+        android:id="@+id/under_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#b5b5b5" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="确认"
+        android:textSize="14sp"
+        android:background="#ffffff"
+        android:textColor="#026dff"/>
+
+</LinearLayout>
